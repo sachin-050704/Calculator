@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="cal">
+            <div class="c1">Calculator</div>
+            <div class="c2">
+                <p id="output"></p>
+            </div>
+            <div class="c3">
+
+                <div class="cc1">
+                    <button onclick="one()" class="purple">A</button>
+                    <button  onclick="empty()" class="purple">C</button>
+                    <button onclick="solve('%')" class="purple">%</button>
+                    <button onclick="solve('/')" class="purple">/</button>
+                </div>
+
+                <div class="cc1">
+                    <button onclick="solve('7')">7</button>
+                    <button onclick="solve('8')">8</button>
+                    <button onclick="solve('9')">9</button>
+                    <button onclick="solve('*')" class="purple">*</button>
+                </div>
+
+                <div class="cc1">
+                    <button onclick="solve('4')">4</button>
+                    <button onclick="solve('5')">5</button>
+                    <button onclick="solve('6')">6</button>
+                    <button onclick="solve('-')" class="purple">-</button>
+                </div>
+
+                <div class="cc1">
+                    <button onclick="solve('1')">1</button>
+                    <button onclick="solve('2')">2</button>
+                    <button onclick="solve('3')">3</button>
+                    <button onclick="solve('+')" class="purple">+</button>
+                </div>
+
+                <div class="cc1">
+                    <button onclick="solve('0')">0</button>
+                    <button onclick="solve('.')">.</button>
+                    <button onclick="solve('x')">x</button>
+                    <button onclick="calculate()" class="purple">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
